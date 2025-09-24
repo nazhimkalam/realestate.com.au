@@ -1,0 +1,24 @@
+{
+  "rows_saved": 200,
+  "cols_saved": 20,
+  "removed_rules": {
+    "duplicates_on": [
+      "lat",
+      "lon",
+      "suburb",
+      "price_target"
+    ],
+    "no_target_dropped": true,
+    "implausible_caps": [
+      "bedrooms>12",
+      "bathrooms>12",
+      "car_spaces>10",
+      "land_m2>100000"
+    ],
+    "winsorized_price_quantiles": {
+      "low": 288900.0,
+      "high": 3501499.9999999986
+    }
+  },
+  "source_file": "data/dataset_realestate.csv"
+}
